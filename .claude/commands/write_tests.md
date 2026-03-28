@@ -1,0 +1,13 @@
+Write comprehansive tests for: $ARGUMENTS
+
+Testing conventions:
+* Use Vintests with React Testing Library
+* Place test files in a  __tests__ directory in the same folder as the source file.
+* Name tests files as [filename].test.ts(x)
+* Use @/ prefix for imports.
+
+Coverage:
+* Test happy path
+* Test edge cases
+* Test error states
+* Foucs on testing behavior and public API's rather than implemention details. 
