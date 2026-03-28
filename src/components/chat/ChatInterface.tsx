@@ -25,7 +25,7 @@ export function ChatInterface() {
   return (
     <div className="flex flex-col h-full p-4 overflow-hidden">
       {messages.length === 0 ? (
-        <div className="flex-1 flex">
+        <div className="flex-1 flex overflow-hidden">
           <MessageList messages={messages} isLoading={status === "streaming"} />
         </div>
       ) : (
